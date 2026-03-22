@@ -144,9 +144,31 @@
   <!-- FOOTER -->
   <footer>
     <div class="container">
-      <p>© 2025 TikTok Money Machine. Built with Node.js &amp; OpenAI.</p>
+      <nav class="footer-links" aria-label="Legal pages">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="cookie-policy.html">Cookie Policy</a>
+        <a href="refund-policy.html">Refund Policy</a>
+      </nav>
+      <p class="footer-contact">Contact: <a href="mailto:contact@aiflow.se">contact@aiflow.se</a></p>
+      <p class="footer-copy">© 2025 AiFlow / TikTok Money Machine. All rights reserved.</p>
+      <p class="footer-disclaimer">Results are not typical and may vary. This site is for educational purposes only and does not guarantee any income. Always conduct your own research before making business decisions.</p>
     </div>
   </footer>
+
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-modal="true" aria-label="Cookie consent">
+    <div class="cookie-banner-inner">
+      <div class="cookie-banner-text">
+        <strong>🍪 We use cookies</strong>
+        <p>We use essential cookies to keep this site working. With your consent we may also use analytics cookies to improve your experience. <a href="cookie-policy.html">Cookie Policy</a></p>
+      </div>
+      <div class="cookie-banner-buttons">
+        <button id="cookie-decline" class="cookie-btn cookie-btn-decline">Decline</button>
+        <button id="cookie-accept" class="cookie-btn cookie-btn-accept">Accept All</button>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
